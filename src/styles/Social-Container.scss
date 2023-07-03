@@ -1,0 +1,20 @@
+.Social-Container{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 100%;
+    .Social{
+        margin-top: 3vh;
+        font-size:xxx-large;
+        flex: 1;
+        :hover{
+            transform:scale(1.1);
+        }
+    }
+    @media screen and (min-width:614px){
+        flex-direction: column;
+        right: 0;
+        width: 20%;
+    }
+    
+}
