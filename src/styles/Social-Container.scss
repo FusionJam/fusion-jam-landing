@@ -4,11 +4,34 @@
     display: flex;
     width: 100%;
     .Social{
+        cursor: pointer;
         margin-top: 3vh;
         font-size:xxx-large;
         flex: 1;
+        text-decoration: none;
+        color:black;
+    }
+    .Whatsapp{
         :hover{
-            transform:scale(1.1);
+            color:#25D366;
+        }
+    }
+    .Facebook{
+        :hover{
+            color:#4267B2;
+        }
+    }
+    .Instagram{
+        :hover{
+            color:white;
+            background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%); 
+            background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);    
+            border-radius: 30%;
+        }
+    }
+    .Phone{
+        :hover{
+            color: #285AEB;
         }
     }
     @media screen and (min-width:614px){
