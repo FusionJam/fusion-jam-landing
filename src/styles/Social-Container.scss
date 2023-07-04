@@ -3,11 +3,16 @@
     align-items: center;
     display: flex;
     width: 100%;
+    a{
+        display: flex;
+        flex: 1;
+        justify-content: center;
+        align-items: center;
+    }
     .Social{
         cursor: pointer;
         margin-top: 3vh;
         font-size:xxx-large;
-        flex: 1;
         text-decoration: none;
         color:black;
     }
